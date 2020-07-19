@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: titanic
+Version: 0.1
+Summary: Analysis of the Titanic dataset
+Home-page: https://github.com/<github_account>/titanic_datascience
+Author: Bob Ni
+Author-email: yukunni1995@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3

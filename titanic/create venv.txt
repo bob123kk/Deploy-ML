@@ -1,0 +1,15 @@
+You can install virtual environment using pip:
+
+py -m pip install --user virtualenv
+For creating new environment:
+
+py -m venv myproject
+To activate your virtual environment:
+
+.\myproject\Scripts\activate
+
+To create file requirements.txt containing the list of packages in our virtual enviroment:
+pip freeze > requirements.txt
+
+install the requirements.txt in another env:
+env2/bin/pip install -r requirements.txt
