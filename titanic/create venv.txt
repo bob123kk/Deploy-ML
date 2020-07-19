@@ -13,3 +13,17 @@ pip freeze > requirements.txt
 
 install the requirements.txt in another env:
 env2/bin/pip install -r requirements.txt
+
+create gitignore:
+curl -o $HOME/.gitignore_global https://raw.githubusercontent.com/github/gitignore/master/Global/Windows.gitignore
+
+create githubrepos:
+https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
+
+
+Contributing:
+git clone <git-repository-url>                     # Download the repository from GitHub
+cd titanic_datascience
+mkvirtualenv --python=python3 titanic_datascience  # Create empty virtual environment
+pip install -r requirements.txt                    # Install packages listed in requirements.txt
+pip install -e .                                   # Install the titanic package in development mode 
